@@ -1,0 +1,7 @@
+[project]
+name = "llama3-2-vision-example"
+version = "0.1.0"
+description = "A basic example of a Llama3.2 vision application!"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
