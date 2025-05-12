@@ -1,10 +1,30 @@
-# Python-generated files
+ Uv virtual environment
+.venv/
+
+# Python cache and compiled files
 __pycache__/
-*.py[oc]
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
 build/
 dist/
+*.egg-info/
 wheels/
-*.egg-info
+pip-wheel-metadata/
 
-# Virtual environments
-.venv
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE and OS specific
+.idea/
+.vscode/ # Consider if you have shared settings you *want* to commit
+.DS_Store
+Thumbs.db
+
+# Other temporary or local files
+*.log
+*.tmp
+*.swp
